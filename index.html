@@ -38,10 +38,18 @@
         <div class="interactive">
           <span id="num-views">100K Pageviews</span>
           <input type="range" name="views" id="viewsInput" min="0" max="4" step="1" value="2">
-          <span class="price">$16.00</span>
-          <span class="bill-frequency">/ month</span>
+          <div class="price-container">
+            <span class="price"></span>
+            <span class="bill-frequency">la la month</span>
+          </div>
+          
           <span class="monthly">Monthly Billing</span>
-          <input type="checkbox" name="type-billing" id="typeBilling">
+          
+          <div class="toggle-container">
+            <input type="checkbox" name="type-billing" id="typeBilling">
+            <label for="typeBilling" class="toggle"></label>
+          </div>
+          
           <span class="yearly">Yearly Billing</span>
           <span class="discount">-25% <span class="alt-text">discount</span></span>
           
